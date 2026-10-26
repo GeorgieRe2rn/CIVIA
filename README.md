@@ -4,7 +4,7 @@ Repositorio compartido de Jorge, Lluvia, Lalo y Viviana. Analítica electoral ag
 
 ## Estado actual
 
-Se incorporaron los archivos de coordinación y el contrato propuesto. La aplicación, base de datos y modelo todavía no están implementados en este repositorio. No hay pruebas de producto ejecutadas ni compuertas aprobadas.
+En la rama `etapa/01-datos-ml` se implementó G1 para revisión: pipeline oficial INE de 125 municipios de Jalisco, seis elecciones (2009-2024), modelo evaluado retrospectivamente, contrato y pruebas. Ver el PR de etapa para estado actual. No hay aceptación humana ni integración de G1 aprobadas automáticamente. API, PostgreSQL, web y app móvil corresponden a las etapas siguientes y aún no se implementaron.
 
 ## Qué hace cada persona
 
@@ -39,7 +39,7 @@ No existe una carpeta kit_github que deban instalar. Los archivos ya están en s
 | `.gitignore` | Evita incorporar secretos, dependencias y archivos locales. |
 | `.env.example` | Lista de variables sin claves; copiar a `.env` local al implementar y completar solo en el equipo. |
 
-Las carpetas `apps/web`, `apps/mobile`, `services/api`, `ml`, `data` y `scripts` se crearán durante las etapas correspondientes. No hay comandos de ejecución del producto todavía: documentarlos cuando existan, junto con versiones y lockfiles.
+Las carpetas `apps/web`, `apps/mobile` y `services/api` contienen solo instrucciones de la etapa futura; no son aplicaciones ejecutables todavía. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen la implementación G1.
 
 ## Seguridad y alcance
 
@@ -47,8 +47,42 @@ No publicar claves ni datos personales. Cifras de mockups son ficticias; datos r
 
 ## Revisión y protección
 
-Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. No se ha activado protección ni CI automáticamente; no hay comprobaciones de producto implementadas.
+Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. Protección no configurada. G1 agrega `.github/workflows/g1.yml`: verificación de hashes, contrato y tests sobre Windows/Python 3.12. El resultado remoto debe consultarse en Actions; su existencia no significa ejecución aprobada.
 
 ## Flujo GitHub explicado
 
 `develop` es integración; `main` es entrega estable. Push sube cambios a TU rama. PR solicita revisión e integración. Merge incorpora un PR aprobado. Leer el tutorial completo en [docs/COMO_TRABAJAMOS.md](docs/COMO_TRABAJAMOS.md), con ejemplos por persona, botones de GitHub y relevo. El desarrollo se lee en [develop](https://github.com/GeorgieRe2rn/CIVIA/tree/develop).
+
+## Ejecutar G1 desde un clon limpio (Windows)
+
+Requisito: Python 3.12 de 64 bits y Git. Desde la raíz, ejecutar cada comando por separado y detenerse si falla:
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.lock
+.\.venv\Scripts\python.exe -m pip install -e . --no-deps
+.\.venv\Scripts\python.exe -m civia_data.verify
+.\.venv\Scripts\python.exe -m pytest -q
+```
+
+Si el equipo no tiene el lanzador `py`, usar la ruta a su ejecutable Python 3.12 para el primer comando. No es necesario activar el entorno. Los demás comandos usan explícitamente `.venv`. En macOS/Linux, crear entorno con `python3.12 -m venv .venv` y sustituir `.venv/Scripts/python.exe` por `.venv/bin/python`.
+
+Los datos agregados y artefactos pequeños están incluidos. Para reconstruirlos desde las seis descargas oficiales (aprox. 294 MB comprimidos, espacio adicional en disco):
+
+```powershell
+.\.venv\Scripts\python.exe -m civia_data.download
+.\.venv\Scripts\python.exe -m civia_data.build
+.\.venv\Scripts\python.exe -m civia_data.train
+.\.venv\Scripts\python.exe -m civia_data.verify
+.\.venv\Scripts\python.exe scripts/reproduce_check.py --from-cache
+```
+
+Para comprobar con descargas nuevas, ejecutar `python scripts/reproduce_check.py` usando el Python del entorno. No se modifica ni acepta una nueva fuente silenciosamente: si cambia un hash, revisar antes de regenerar el lock. Ver `scripts/README.md` para runner con parada automática.
+
+## Resultado y límites G1
+
+750 filas agregadas; entrenamiento en 2015/2018/2021, prueba 2024, 125 municipios. RF MAE **3.2418 pp**, baseline de elección comparable 2018 **3.9801 pp**. Estrategia elegida previamente con validación 2021. Ver `ml/artifacts/evaluation.json` para RMSE, tamaños y parámetros.
+
+La tasa usa **SV/(SV+NV)**; NS se informa por separado, no como abstención. Claves son **INE**, no INEGI: Guadalajara **14041**. Solo se sirve backtest retrospectivo 2024, no pronósticos futuros. `interval=null` y no hay geometría verificada. Los resultados no prueban causalidad ni generalización a otras elecciones.
+
+Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y [acta pendiente](docs/relevos/01_JORGE.md). El contrato 1.1.0 tiene ocho endpoints propuestos, incluyendo catálogo de elecciones, ejemplos reales y metadatos científicos. Lluvia debe revisarlo antes de aceptarlo; no es una API desplegada.

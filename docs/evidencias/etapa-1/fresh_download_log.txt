@@ -1,0 +1,9 @@
+Fuente verificada: 2009
+Fuente verificada: 2012
+Fuente verificada: 2015
+Fuente verificada: 2018
+Fuente verificada: 2021
+Fuente verificada: 2024
+Tabla validada: 750 filas; ine-ccpc-jal-b76f8fc46187
+{"n_train": 375, "n_test": 125, "strategy": "random_forest", "rf": {"mae_pp": 3.2418158185907844, "rmse_pp": 4.163484508672532, "n": 125}, "baseline": {"mae_pp": 3.9801046015743995, "rmse_pp": 5.225836157047198, "n": 125}}
+Reconstrucci�n independiente: 9 artefactos id�nticos SHA256

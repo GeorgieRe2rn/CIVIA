@@ -1,0 +1,38 @@
+[
+  {
+    "election_id": "federal-2009",
+    "year": 2009,
+    "election_date": "2009-07-05",
+    "election_type": "federal_intermedia"
+  },
+  {
+    "election_id": "federal-2012",
+    "year": 2012,
+    "election_date": "2012-07-01",
+    "election_type": "federal_concurrente"
+  },
+  {
+    "election_id": "federal-2015",
+    "year": 2015,
+    "election_date": "2015-06-07",
+    "election_type": "federal_intermedia"
+  },
+  {
+    "election_id": "federal-2018",
+    "year": 2018,
+    "election_date": "2018-07-01",
+    "election_type": "federal_concurrente"
+  },
+  {
+    "election_id": "federal-2021",
+    "year": 2021,
+    "election_date": "2021-06-06",
+    "election_type": "federal_intermedia"
+  },
+  {
+    "election_id": "federal-2024",
+    "year": 2024,
+    "election_date": "2024-06-02",
+    "election_type": "federal_concurrente"
+  }
+]

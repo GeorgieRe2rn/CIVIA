@@ -1,0 +1,899 @@
+{
+  "meta": {
+    "source_version": "ine-ccpc-jal-b76f8fc46187",
+    "timestamp": "2026-10-26T06:08:30.904431+00:00",
+    "data_status": "no_aplica",
+    "warnings": [
+      "No incluye casillas especiales ni voto exterior",
+      "NS no equivale a abstención",
+      "Porcentajes entre registros con condición de voto conocida",
+      "No unir claves INE con INEGI sin correspondencia revisada",
+      "Cartografía histórica retrospectiva: 2021 en archivos 2009-2021; 2023 en 2024; no se garantiza estabilidad de polígonos"
+    ]
+  },
+  "data": [
+    {
+      "id": "14001",
+      "name": "Acatic",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14002",
+      "name": "Acatlán de Juárez",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14003",
+      "name": "Ahualulco de Mercado",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14004",
+      "name": "Amacueca",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14005",
+      "name": "Amatitán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14006",
+      "name": "Ameca",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14007",
+      "name": "San Juanito de Escobedo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14008",
+      "name": "Arandas",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14009",
+      "name": "El Arenal",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14010",
+      "name": "Atemajac de Brizuela",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14011",
+      "name": "Atengo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14012",
+      "name": "Atenguillo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14013",
+      "name": "Atotonilco el Alto",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14014",
+      "name": "Atoyac",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14015",
+      "name": "Autlán de Navarro",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14016",
+      "name": "Ayotlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14017",
+      "name": "Ayutla",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14018",
+      "name": "La Barca",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14019",
+      "name": "Bolaños",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14020",
+      "name": "Cabo Corrientes",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14021",
+      "name": "Casimiro Castillo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14022",
+      "name": "Cihuatlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14023",
+      "name": "Zapotlán el Grande",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14024",
+      "name": "San Gabriel",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14025",
+      "name": "Cocula",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14026",
+      "name": "Colotlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14027",
+      "name": "Concepción de Buenos Aires",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14028",
+      "name": "Cuautitlán de García Barragán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14029",
+      "name": "Cuautla",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14030",
+      "name": "Cuquío",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14031",
+      "name": "Chapala",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14032",
+      "name": "Chimaltitán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14033",
+      "name": "Chiquilistlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14034",
+      "name": "Degollado",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14035",
+      "name": "Ejutla",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14036",
+      "name": "Encarnación de Díaz",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14037",
+      "name": "Etzatlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14038",
+      "name": "Gómez Farías",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14039",
+      "name": "El Grullo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14040",
+      "name": "Guachinango",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14041",
+      "name": "Guadalajara",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14042",
+      "name": "Hostotipaquillo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14043",
+      "name": "Huejúcar",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14044",
+      "name": "Huejuquilla el Alto",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14045",
+      "name": "La Huerta",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14046",
+      "name": "Ixtlahuacán de los Membrillos",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14047",
+      "name": "Ixtlahuacán del Río",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14048",
+      "name": "Jalostotitlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14049",
+      "name": "Jamay",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14050",
+      "name": "Jesús María",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14051",
+      "name": "Jilotlán de los Dolores",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14052",
+      "name": "Jocotepec",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14053",
+      "name": "Juanacatlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14054",
+      "name": "Juchitlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14055",
+      "name": "Lagos de Moreno",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14056",
+      "name": "El Limón",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14057",
+      "name": "Magdalena",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14058",
+      "name": "Santa María del Oro",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14059",
+      "name": "La Manzanilla de la Paz",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14060",
+      "name": "Mascota",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14061",
+      "name": "Mazamitla",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14062",
+      "name": "Mexticacán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14063",
+      "name": "Mezquitic",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14064",
+      "name": "Mixtlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14065",
+      "name": "Ocotlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14066",
+      "name": "Ojuelos de Jalisco",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14067",
+      "name": "Pihuamo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14068",
+      "name": "Poncitlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14069",
+      "name": "Puerto Vallarta",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14070",
+      "name": "Villa Purificación",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14071",
+      "name": "Quitupan",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14072",
+      "name": "El Salto",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14073",
+      "name": "San Cristóbal de la Barranca",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14074",
+      "name": "San Diego de Alejandría",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14075",
+      "name": "San Juan de los Lagos",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14076",
+      "name": "San Julián",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14077",
+      "name": "San Marcos",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14078",
+      "name": "San Martín de Bolaños",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14079",
+      "name": "San Martín Hidalgo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14080",
+      "name": "San Miguel el Alto",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14081",
+      "name": "San Sebastián del Oeste",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14082",
+      "name": "Santa María de los Ángeles",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14083",
+      "name": "Sayula",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14084",
+      "name": "Tala",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14085",
+      "name": "Talpa de Allende",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14086",
+      "name": "Tamazula de Gordiano",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14087",
+      "name": "Tapalpa",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14088",
+      "name": "Tecalitlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14089",
+      "name": "Tecolotlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14090",
+      "name": "Techaluta de Montenegro",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14091",
+      "name": "Tenamaxtlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14092",
+      "name": "Teocaltiche",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14093",
+      "name": "Teocuitatlán de Corona",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14094",
+      "name": "Tepatitlán de Morelos",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14095",
+      "name": "Tequila",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14096",
+      "name": "Teuchitlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14097",
+      "name": "Tizapán el Alto",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14098",
+      "name": "Tlajomulco de Zúñiga",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14099",
+      "name": "San Pedro Tlaquepaque",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14100",
+      "name": "Tolimán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14101",
+      "name": "Tomatlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14102",
+      "name": "Tonalá",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14103",
+      "name": "Tonaya",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14104",
+      "name": "Tonila",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14105",
+      "name": "Totatiche",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14106",
+      "name": "Tototlán",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14107",
+      "name": "Tuxcacuesco",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14108",
+      "name": "Tuxcueca",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14109",
+      "name": "Tuxpan",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14110",
+      "name": "Unión de San Antonio",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14111",
+      "name": "Unión de Tula",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14112",
+      "name": "Valle de Guadalupe",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14113",
+      "name": "Valle de Juárez",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14114",
+      "name": "Villa Corona",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14115",
+      "name": "Villa Guerrero",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14116",
+      "name": "Villa Hidalgo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14117",
+      "name": "Cañadas de Obregón",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14118",
+      "name": "Yahualica de González Gallo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14119",
+      "name": "Zacoalco de Torres",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14120",
+      "name": "Zapopan",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14121",
+      "name": "Zapotiltic",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14122",
+      "name": "Zapotitlán de Vadillo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14123",
+      "name": "Zapotlán del Rey",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14124",
+      "name": "Zapotlanejo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    },
+    {
+      "id": "14125",
+      "name": "San Ignacio Cerro Gordo",
+      "level": "municipio",
+      "state_id": "14",
+      "code_system": "INE_EDOCVE_MPIOCVE"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ine-ccpc-2024-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2025/08/DatosAbiertos_DECEyEC_ConteosCensales2024.zip",
+      "title": "INE Conteos Censales 2024, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.904431+00:00"
+    }
+  ]
+}

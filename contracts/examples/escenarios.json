@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "source_version": "ine-ccpc-jal-b76f8fc46187",
+    "timestamp": "2026-10-26T06:08:30.904431+00:00",
+    "data_status": "simulado",
+    "warnings": [
+      "No incluye casillas especiales ni voto exterior",
+      "NS no equivale a abstención",
+      "Porcentajes entre registros con condición de voto conocida",
+      "No unir claves INE con INEGI sin correspondencia revisada",
+      "Cartografía histórica retrospectiva: 2021 en archivos 2009-2021; 2023 en 2024; no se garantiza estabilidad de polígonos"
+    ]
+  },
+  "data": {
+    "territory_id": "14041",
+    "election_id": "federal-2024",
+    "base_participation_pct": 55.014247839086075,
+    "final_participation_pct": 58.014247839086075,
+    "final_abstention_pct": 41.985752160913925,
+    "delta_pp": 3,
+    "clamped": false,
+    "label": "Simulación hipotética",
+    "base_status": "predicho",
+    "base_evaluation_mode": "retrospective_holdout"
+  },
+  "sources": [
+    {
+      "id": "ine-ccpc-2009-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2009.zip",
+      "title": "INE Conteos Censales 2009, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.322603+00:00"
+    },
+    {
+      "id": "ine-ccpc-2012-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2012.zip",
+      "title": "INE Conteos Censales 2012, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.422339+00:00"
+    },
+    {
+      "id": "ine-ccpc-2015-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2015.zip",
+      "title": "INE Conteos Censales 2015, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.522930+00:00"
+    },
+    {
+      "id": "ine-ccpc-2018-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2018.zip",
+      "title": "INE Conteos Censales 2018, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.680181+00:00"
+    },
+    {
+      "id": "ine-ccpc-2021-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2021.zip",
+      "title": "INE Conteos Censales 2021, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.792390+00:00"
+    },
+    {
+      "id": "ine-ccpc-2024-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2025/08/DatosAbiertos_DECEyEC_ConteosCensales2024.zip",
+      "title": "INE Conteos Censales 2024, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.904431+00:00"
+    }
+  ]
+}

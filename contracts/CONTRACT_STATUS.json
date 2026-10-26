@@ -1,0 +1,15 @@
+{
+  "contract_version": "1.1.0",
+  "openapi_version": "3.0.3",
+  "sha256": "70991b4910ee2e7b2177311a28f6fbfd81f19913f606bd6106992d254b32a16b",
+  "state": "FROZEN_PROPOSAL_PENDING_HUMAN_REVIEW",
+  "reviewer": "Lluvia",
+  "scope": "G1, antes de implementar consumidores",
+  "changes": [
+    "Catálogo GET /api/elecciones",
+    "Claves INE explícitas",
+    "Conteos/NS, denominador y fechas",
+    "Inferencia limitada a backtest 2024 e interval=null",
+    "Mapa sin geometría responde 503"
+  ]
+}

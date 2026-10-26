@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "civia-data"
+version = "0.1.0"
+description = "CIVIA G1: datos agregados oficiales y evaluación temporal"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pandas==3.1.0", "numpy==2.5.4", "scikit-learn==1.9.1", "joblib==1.6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

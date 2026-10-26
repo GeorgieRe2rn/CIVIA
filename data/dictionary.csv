@@ -1,0 +1,20 @@
+field,type,unit,definition,missing_policy
+nominal_count,integer,registros,LN: cuadernillos incluidos,Rechazar faltantes; no imputar
+voted_count,integer,registros,SV: marca de voto,Rechazar faltantes; no imputar
+not_voted_count,integer,registros,NV: sin marca de voto,Rechazar faltantes; no imputar
+unknown_count,integer,registros,NS: no especificado; no sumar a NV,Rechazar faltantes; no imputar
+territory_id,string,clave INE,EDOCVE(2)+MPIOCVE(3); no INEGI,Rechazar faltantes; no imputar
+territory_name,string,texto,Nombre oficial consistente en seis archivos,Rechazar faltantes; no imputar
+known_count,integer,registros,SV+NV,Rechazar faltantes; no imputar
+participation_pct,number,porcentaje,"100*SV/(SV+NV), condición conocida",Rechazar faltantes; no imputar
+abstention_pct,number,porcentaje,100-participation_pct,Rechazar faltantes; no imputar
+unknown_pct,number,porcentaje de LN,100*NS/LN,Rechazar faltantes; no imputar
+participation_lower_pct,number,porcentaje de LN,"100*SV/LN; extremo por faltantes, no intervalo",Rechazar faltantes; no imputar
+participation_upper_pct,number,porcentaje de LN,"100*(SV+NS)/LN; extremo por faltantes, no intervalo",Rechazar faltantes; no imputar
+election_id,string,identificador,federal-AAAA,Rechazar faltantes; no imputar
+year,integer,año,2009/2012/2015/2018/2021/2024,Rechazar faltantes; no imputar
+election_date,string,ISO8601 fecha,"Fecha explícita, 2024-06-02",Rechazar faltantes; no imputar
+election_type,string,categoría,federal_concurrente o federal_intermedia,Rechazar faltantes; no imputar
+source_id,string,fuente,Referencia al registro en sources.lock.json,Rechazar faltantes; no imputar
+data_status,string,categoría,observado en CSV; predicho/simulado en otros recursos,Rechazar faltantes; no imputar
+denominator,string,fórmula,SV+NV: excluir NS del denominador,Rechazar faltantes; no imputar
