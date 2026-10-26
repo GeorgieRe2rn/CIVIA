@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "source_version": "ine-ccpc-jal-b76f8fc46187",
+    "timestamp": "2026-10-26T06:08:30.904431+00:00",
+    "data_status": "no_aplica",
+    "warnings": [
+      "No incluye casillas especiales ni voto exterior",
+      "NS no equivale a abstención",
+      "Porcentajes entre registros con condición de voto conocida",
+      "No unir claves INE con INEGI sin correspondencia revisada",
+      "Cartografía histórica retrospectiva: 2021 en archivos 2009-2021; 2023 en 2024; no se garantiza estabilidad de polígonos"
+    ]
+  },
+  "data": {
+    "answer": "Este ejemplo usa registros de condición conocida (SV+NV). Los no especificados se muestran por separado.",
+    "mode": "determinista",
+    "source_ids": [
+      "ine-ccpc-2024-jal"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ine-ccpc-2024-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2025/08/DatosAbiertos_DECEyEC_ConteosCensales2024.zip",
+      "title": "INE Conteos Censales 2024, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.904431+00:00"
+    }
+  ]
+}

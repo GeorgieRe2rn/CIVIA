@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "mode": "fresh_official_downloads",
+  "isolated_directory": true,
+  "matching_artifacts": {
+    "data/processed/elections.json": "882030a873c75a227528c21e8629a847a6596cf0dc1b3045647b8dd4f453d9fb",
+    "data/processed/metadata.json": "0700dc744890da14fcd5da047dad20204587932f1a7469fbf9cb035470ad81b7",
+    "data/processed/participation.csv": "b76f8fc46187447fb56ecff73a00cbe94e7240e4fbf355ee1bcf8ff440cf0cf8",
+    "data/processed/territories.json": "af0ceeac0fc7b1b3cc7ed42e9f39ba871ef5bbb3f2305f89bcc3df3313472df0",
+    "ml/artifacts/errors_by_municipality.csv": "0f7fd3460ccefd1bf55db81d07729349237cf0fd1b6454eee9a4d554dabf4a7c",
+    "ml/artifacts/evaluation.json": "1dcea29ac1d6e1c2da4894908fa4de018db4e4c2f32c35c9ba57844d4bc667d0",
+    "ml/artifacts/predictions_2024.json": "e0d4725a21c037faf5047e03e0e6010258cc50d1b66099462e2916e03eb1dfac",
+    "ml/artifacts/random_forest.joblib": "efc59909b75422ed036a25f4a633b0220bcbf31237b7591c62efcdc2e162be83",
+    "ml/artifacts/training_panel.csv": "c4467fa1288f27354c3f108f5627223a7185376eb57395614eab6a61e0054585"
+  }
+}

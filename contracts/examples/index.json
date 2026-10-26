@@ -1,0 +1,50 @@
+[
+  {
+    "file": "health.json",
+    "path": "/api/health",
+    "method": "get",
+    "status": "200"
+  },
+  {
+    "file": "territorios.json",
+    "path": "/api/territorios",
+    "method": "get",
+    "status": "200"
+  },
+  {
+    "file": "elecciones.json",
+    "path": "/api/elecciones",
+    "method": "get",
+    "status": "200"
+  },
+  {
+    "file": "participacion.json",
+    "path": "/api/participacion",
+    "method": "get",
+    "status": "200"
+  },
+  {
+    "file": "predicciones.json",
+    "path": "/api/predicciones",
+    "method": "post",
+    "status": "200"
+  },
+  {
+    "file": "escenarios.json",
+    "path": "/api/escenarios",
+    "method": "post",
+    "status": "200"
+  },
+  {
+    "file": "asistente.json",
+    "path": "/api/asistente",
+    "method": "post",
+    "status": "200"
+  },
+  {
+    "file": "mapa_no_disponible.json",
+    "path": "/api/mapa",
+    "method": "get",
+    "status": "503"
+  }
+]

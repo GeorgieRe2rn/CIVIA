@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "source_version": "ine-ccpc-jal-b76f8fc46187",
+    "timestamp": "2026-10-26T06:08:30.904431+00:00",
+    "data_status": "observado",
+    "warnings": [
+      "No incluye casillas especiales ni voto exterior",
+      "NS no equivale a abstención",
+      "Porcentajes entre registros con condición de voto conocida",
+      "No unir claves INE con INEGI sin correspondencia revisada",
+      "Cartografía histórica retrospectiva: 2021 en archivos 2009-2021; 2023 en 2024; no se garantiza estabilidad de polígonos"
+    ]
+  },
+  "data": [
+    {
+      "nominal_count": 1307551,
+      "voted_count": 641153,
+      "not_voted_count": 651390,
+      "unknown_count": 15008,
+      "territory_id": "14041",
+      "known_count": 1292543,
+      "participation_pct": 49.6039977007,
+      "abstention_pct": 50.3960022993,
+      "unknown_pct": 1.1477946176,
+      "participation_lower_pct": 49.0346456849,
+      "participation_upper_pct": 50.1824403025,
+      "election_id": "federal-2009",
+      "year": 2009,
+      "election_date": "2009-07-05",
+      "election_type": "federal_intermedia",
+      "source_id": "ine-ccpc-2009-jal",
+      "denominator": "SV+NV"
+    },
+    {
+      "nominal_count": 1231903,
+      "voted_count": 816816,
+      "not_voted_count": 413794,
+      "unknown_count": 1293,
+      "territory_id": "14041",
+      "known_count": 1230610,
+      "participation_pct": 66.374887251,
+      "abstention_pct": 33.625112749,
+      "unknown_pct": 0.1049595626,
+      "participation_lower_pct": 66.3052204597,
+      "participation_upper_pct": 66.4101800223,
+      "election_id": "federal-2012",
+      "year": 2012,
+      "election_date": "2012-07-01",
+      "election_type": "federal_concurrente",
+      "source_id": "ine-ccpc-2012-jal",
+      "denominator": "SV+NV"
+    },
+    {
+      "nominal_count": 1229104,
+      "voted_count": 631044,
+      "not_voted_count": 550950,
+      "unknown_count": 47110,
+      "territory_id": "14041",
+      "known_count": 1181994,
+      "participation_pct": 53.3880882644,
+      "abstention_pct": 46.6119117356,
+      "unknown_pct": 3.8328733777,
+      "participation_lower_pct": 51.3417904425,
+      "participation_upper_pct": 55.1746638201,
+      "election_id": "federal-2015",
+      "year": 2015,
+      "election_date": "2015-06-07",
+      "election_type": "federal_intermedia",
+      "source_id": "ine-ccpc-2015-jal",
+      "denominator": "SV+NV"
+    },
+    {
+      "nominal_count": 1258770,
+      "voted_count": 742146,
+      "not_voted_count": 469438,
+      "unknown_count": 47186,
+      "territory_id": "14041",
+      "known_count": 1211584,
+      "participation_pct": 61.2541928583,
+      "abstention_pct": 38.7458071417,
+      "unknown_pct": 3.748579963,
+      "participation_lower_pct": 58.9580304583,
+      "participation_upper_pct": 62.7066104213,
+      "election_id": "federal-2018",
+      "year": 2018,
+      "election_date": "2018-07-01",
+      "election_type": "federal_concurrente",
+      "source_id": "ine-ccpc-2018-jal",
+      "denominator": "SV+NV"
+    },
+    {
+      "nominal_count": 1263591,
+      "voted_count": 590714,
+      "not_voted_count": 637386,
+      "unknown_count": 35491,
+      "territory_id": "14041",
+      "known_count": 1228100,
+      "participation_pct": 48.0998290042,
+      "abstention_pct": 51.9001709958,
+      "unknown_pct": 2.8087411196,
+      "participation_lower_pct": 46.7488293285,
+      "participation_upper_pct": 49.557570448,
+      "election_id": "federal-2021",
+      "year": 2021,
+      "election_date": "2021-06-06",
+      "election_type": "federal_intermedia",
+      "source_id": "ine-ccpc-2021-jal",
+      "denominator": "SV+NV"
+    },
+    {
+      "nominal_count": 1268083,
+      "voted_count": 743737,
+      "not_voted_count": 471829,
+      "unknown_count": 52517,
+      "territory_id": "14041",
+      "known_count": 1215566,
+      "participation_pct": 61.1844194392,
+      "abstention_pct": 38.8155805608,
+      "unknown_pct": 4.1414481544,
+      "participation_lower_pct": 58.6504984295,
+      "participation_upper_pct": 62.7919465839,
+      "election_id": "federal-2024",
+      "year": 2024,
+      "election_date": "2024-06-02",
+      "election_type": "federal_concurrente",
+      "source_id": "ine-ccpc-2024-jal",
+      "denominator": "SV+NV"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ine-ccpc-2009-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2009.zip",
+      "title": "INE Conteos Censales 2009, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.322603+00:00"
+    },
+    {
+      "id": "ine-ccpc-2012-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2012.zip",
+      "title": "INE Conteos Censales 2012, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.422339+00:00"
+    },
+    {
+      "id": "ine-ccpc-2015-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2015.zip",
+      "title": "INE Conteos Censales 2015, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.522930+00:00"
+    },
+    {
+      "id": "ine-ccpc-2018-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2018.zip",
+      "title": "INE Conteos Censales 2018, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.680181+00:00"
+    },
+    {
+      "id": "ine-ccpc-2021-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2022/04/DatosAbiertos_DECEyEC_ConteosCensales2021.zip",
+      "title": "INE Conteos Censales 2021, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.792390+00:00"
+    },
+    {
+      "id": "ine-ccpc-2024-jal",
+      "url": "https://portal.ine.mx/wp-content/uploads/2025/08/DatosAbiertos_DECEyEC_ConteosCensales2024.zip",
+      "title": "INE Conteos Censales 2024, Jalisco",
+      "retrieved_at": "2026-10-26T06:08:30.904431+00:00"
+    }
+  ]
+}

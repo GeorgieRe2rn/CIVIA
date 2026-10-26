@@ -1,0 +1,25 @@
+{
+  "isolated_venv": true,
+  "editable_install": "PASS",
+  "pinned_requirements_install": "PASS",
+  "checks": [
+    {
+      "command": "python -m civia_data.verify",
+      "exit_code": 0,
+      "stdout": "22 artefactos verificados\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m pytest -q",
+      "exit_code": 0,
+      "stdout": "...................                                                      [100%]\n19 passed in 3.10s\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m pip check",
+      "exit_code": 0,
+      "stdout": "No broken requirements found.\n",
+      "stderr": ""
+    }
+  ]
+}
