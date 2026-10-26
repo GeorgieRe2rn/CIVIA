@@ -4,6 +4,7 @@ Etapa y compuerta: 1 / G1
 Responsable: JORGE
 Revisor: Lluvia
 Fecha, hora, America/Hermosillo:
+Destino de integración: develop
 PR y SHA integrado:
 Dataset, modelo, contrato y hashes:
 Archivos y comandos reproducibles:

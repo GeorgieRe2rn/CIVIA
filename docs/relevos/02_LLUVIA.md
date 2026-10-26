@@ -4,6 +4,7 @@ Etapa y compuerta: 2 / G2
 Responsable: LLUVIA
 Revisor: Lalo
 Fecha, hora, America/Hermosillo:
+Destino de integración: develop
 PR y SHA integrado:
 Dataset, modelo, contrato y hashes:
 Archivos y comandos reproducibles:

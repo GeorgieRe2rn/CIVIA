@@ -4,6 +4,7 @@ Etapa y compuerta: 4 / G4
 Responsable: VIVIANA
 Revisor: Jorge
 Fecha, hora, America/Hermosillo:
+Destino de integración: develop
 PR y SHA integrado:
 Dataset, modelo, contrato y hashes:
 Archivos y comandos reproducibles:

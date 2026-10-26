@@ -3,6 +3,7 @@ Estado: PENDIENTE | BLOQUEADO | ACEPTADO
 Etapa y compuerta:
 Responsable / revisor:
 Fecha, hora, America/Hermosillo:
+Rama de origen / destino (etapas: develop):
 PR y SHA integrado:
 Dataset, modelo, contrato y hashes:
 Archivos y comandos reproducibles:

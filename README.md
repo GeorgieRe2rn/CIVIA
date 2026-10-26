@@ -22,7 +22,7 @@ Una sola persona desarrolla a la vez. La siguiente comienza cuando el PR anterio
 1. Jorge invita a los otros tres como colaboradores desde Settings > Collaborators y confirma sus cuentas. Esta configuración no se ha realizado automáticamente.
 2. Cada integrante clona este repositorio una sola vez: `git clone https://github.com/GeorgieRe2rn/CIVIA.git`.
 3. Lee la guía PDF personal del paquete entregado y `docs/COMO_TRABAJAMOS.md` en este repositorio.
-4. Jorge inicia su etapa en `etapa/01-datos-ml`. Los demás esperan la aceptación de la etapa anterior.
+4. Cambiar a `develop` actualizado y crear la rama propia desde ahí. Jorge inicia en `etapa/01-datos-ml`; los demás esperan el relevo aceptado. Cada etapa hace PR hacia `develop`, nunca directamente hacia `main`.
 5. Para usar una IA, adjunta tu guía de apoyo y dale acceso a este repositorio; pídele que lea contrato y acta anterior antes de modificar archivos.
 
 ## Para qué sirven los archivos de apoyo
@@ -47,4 +47,8 @@ No publicar claves ni datos personales. Cifras de mockups son ficticias; datos r
 
 ## Revisión y protección
 
-Trabajar mediante ramas y PR, sin push directo ni force push a main después de esta inicialización. Configurar protección de main, aprobación humana y verificaciones cuando permisos y plan lo permitan. No se ha activado protección ni CI automáticamente; no hay comprobaciones de producto implementadas.
+Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. No se ha activado protección ni CI automáticamente; no hay comprobaciones de producto implementadas.
+
+## Flujo GitHub explicado
+
+`develop` es integración; `main` es entrega estable. Push sube cambios a TU rama. PR solicita revisión e integración. Merge incorpora un PR aprobado. Leer el tutorial completo en [docs/COMO_TRABAJAMOS.md](docs/COMO_TRABAJAMOS.md), con ejemplos por persona, botones de GitHub y relevo. El desarrollo se lee en [develop](https://github.com/GeorgieRe2rn/CIVIA/tree/develop).
