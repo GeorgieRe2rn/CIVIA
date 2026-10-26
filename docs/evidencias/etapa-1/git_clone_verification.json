@@ -1,0 +1,19 @@
+{
+  "source_commit": "050624bdee201fc3cd3caab46e06f2170774980d",
+  "checkout": "git clone --no-hardlinks",
+  "checks": [
+    {
+      "command": "python -m civia_data.verify",
+      "exit_code": 0,
+      "stdout": "22 artefactos verificados\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m pytest -q",
+      "exit_code": 0,
+      "stdout": "...................                                                      [100%]\n19 passed in 2.94s\n",
+      "stderr": ""
+    }
+  ],
+  "lf_checkout_hashes": "PASS"
+}

@@ -5,8 +5,8 @@ Responsable: Jorge
 Revisora: Lluvia
 Rama de trabajo: etapa/01-datos-ml
 Destino: develop
-PR: PENDIENTE DE CREAR
-Commit de implementación: PENDIENTE DE REGISTRAR
+PR: https://github.com/GeorgieRe2rn/CIVIA/pull/2
+Commit de implementación: 050624bdee201fc3cd3caab46e06f2170774980d
 SHA de merge: PENDIENTE (no integrado)
 Aceptación humana: PENDIENTE (no firmada por IA)
 
