@@ -1,6 +1,6 @@
 # Entrega técnica para revisión de Lluvia
 
-Estado: PENDIENTE DE REVISIÓN HUMANA. No comenzar G2 antes de aprobación, integración del PR en develop y acta aceptada.
+Estado: G1 integrado en develop mediante PR #2 por autorización directa de Jorge el 26 de octubre de 2026; revisión técnica de Lluvia no registrada. Acta actualizada con SHA real; G2 habilitada. Leer límites y pedir correcciones si corresponde.
 
 ## Qué recibes
 
