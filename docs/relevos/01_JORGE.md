@@ -1,14 +1,14 @@
 # Acta de relevo G1
 
-Estado: PENDIENTE DE REVISIÓN HUMANA
+Estado: ACEPTADO E INTEGRADO POR AUTORIZACIÓN DIRECTA DE JORGE
 Responsable: Jorge
-Revisora: Lluvia
+Revisora prevista: Lluvia (sin revisión registrada en GitHub)
 Rama de trabajo: etapa/01-datos-ml
 Destino: develop
 PR: https://github.com/GeorgieRe2rn/CIVIA/pull/2
 Commit de implementación: 050624bdee201fc3cd3caab46e06f2170774980d
-SHA de merge: PENDIENTE (no integrado)
-Aceptación humana: PENDIENTE (no firmada por IA)
+SHA de merge: b8bd5e7f960957f0174f320ef80234a7bcf2f79b
+Aceptación humana: autorización directa de Jorge en el chat el 26 de octubre de 2026: "ya subelo a develop". Excepción al relevo inicialmente previsto; no atribuida a Lluvia.
 
 ## Entregables verificables
 
@@ -19,7 +19,7 @@ Aceptación humana: PENDIENTE (no firmada por IA)
 - Hashes: data/artifacts.sha256.json. Contrato 1.1.0: contracts/openapi.yaml y CONTRACT_STATUS.json.
 - Pruebas: 19 aprobadas; evidencia en docs/evidencias/etapa-1. Métodos y traspaso en docs/METODOLOGIA_G1.md y docs/ENTREGA_LLUVIA_G1.md.
 
-## Criterios G1 (comprobación técnica, pendiente aceptación de Lluvia)
+## Criterios G1 (comprobación técnica, integración autorizada por Jorge)
 
 1. Seis elecciones oficiales, claves/nombres continuos de 125 municipios, pipeline ejecutado y trazable: evidencia data_validation.json.
 2. CSV municipal sin datos personales; conteos, faltantes y denominadores explícitos; no inventar cifras: data/README.md.
@@ -37,4 +37,4 @@ Desde clon limpio con Python3.12: instalar requirements.lock y paquete editable 
 
 ## Relevo
 
-Lluvia revisa y acepta o solicita cambios; después integrar PR aprobado a develop y registrar SHA real de merge mediante PR de documentación si hace falta. Solo entonces se habilita G2. No se ha comenzado su implementación.
+PR #2 integrado en develop con verificaciones aprobadas y autorización directa del propietario Jorge. Se habilita G2; Lluvia debe leer los límites y puede solicitar correcciones. Su revisión técnica no se declara realizada. No se ha comenzado la implementación de G2.
