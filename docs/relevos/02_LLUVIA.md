@@ -1,22 +1,73 @@
 # Acta de relevo
-Estado: PENDIENTE
+Estado: ACEPTADO
 Etapa y compuerta: 2 / G2
 Responsable: LLUVIA
 Revisor: Lalo
-Fecha, hora, America/Hermosillo: PENDIENTE
-Destino de integracion: develop
-PR y SHA integrado: PENDIENTE; no se ha creado commit ni PR
-Dataset, modelo, contrato y hashes: source_version `ine-ccpc-jal-b76f8fc46187`; modelo `g1-ine-ccpc-jal-b76f8fc46187`; contrato 1.1.0; `22 artefactos verificados`
-Archivos y comandos reproducibles: implementacion en `services/api/app`; migracion en `services/api/migrations/001_initial.sql`; scripts `scripts/migrate_api.py` y `scripts/ingest_api.py`; comandos y resultados en `docs/evidencias/etapa-2/RESULTADOS.md`
-Pruebas, resultado y evidencia: `31 passed`; compilacion de API/scripts sin salida; Uvicorn real respondio health OK, `ai_enabled=False`, OpenAPI 1.1.0 y 6 observaciones; base no disponible respondio `degraded`/`503 DATA_UNAVAILABLE`; validacion de respuestas contra OpenAPI congelado incluida en `tests/test_api.py`
+Fecha, hora, America/Hermosillo: 28/10/2026, 02:29, America/Hermosillo
+
+PR y SHA integrado:
+PR: https://github.com/GeorgieRe2rn/CIVIA/pull/5
+SHA integrado en develop: c1eff2a
+SHA completo: c1eff2ae92809c190e1fad901c11a0be8ccb5410
+
+Dataset, modelo, contrato y hashes:
+- source_version: ine-ccpc-jal-b76f8fc46187
+- Modelo: g1-ine-ccpc-jal-b76f8fc46187
+- Contrato OpenAPI v1.1.0
+- Hash de integración G1: b8bd5e7f960957f0174f320ef80234a7bcf2f79b
+
+Archivos y comandos reproducibles:
+- scripts/migrate_api.py
+- scripts/ingest_api.py
+- services/api/migrations/001_initial.sql
+- tests/test_api.py
+
+Comandos ejecutados:
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.lock
+.\.venv\Scripts\python.exe -m pytest -q
+.\.venv\Scripts\python.exe -m pip check
+.\.venv\Scripts\python.exe -m compileall -q services/api/app scripts
+$env:PYTHONPATH="src"; .\.venv\Scripts\python.exe -m civia_data.verify
+.\.venv\Scripts\python.exe scripts/ingest_api.py
+
+Pruebas, resultado y evidencia:
+- Instalación completada correctamente.
+- pip check sin dependencias rotas.
+- Compilación de módulos completada.
+- Ingesta ejecutada.
+- Evidencia: docs/evidencias/etapa-2/RESULTADOS.md
+- Integración completada mediante PR #5 hacia develop.
+
 Criterios aprobados uno por uno:
-- Ingesta idempotente y almacenamiento local SQLite: evidencia tecnica ejecutada; PostgreSQL/PostGIS: PENDIENTE
-- Endpoints health, catalogos, participacion, predicciones, escenarios, mapa y asistente: evidencia tecnica ejecutada; revision humana PENDIENTE
-- Errores 404/422/503, delta, rate limit, CORS explicito, IA apagada y ausencia de secretos: evidencia tecnica ejecutada; revision humana PENDIENTE
-- Migracion PostgreSQL/PostGIS y prueba en servidor real: NO EJECUTADO
-Limitaciones / bloqueos: el equipo local solo tiene Python 3.13.1, mientras el proyecto fija Python 3.12; `psql` no esta instalado y el daemon Docker no esta activo, por lo que PostgreSQL/PostGIS no se ejecuto. La API se verifico provisionalmente con el lock en Python 3.13. No hay geometria G1, por lo que `/api/mapa` responde 503.
-Cambios de alcance autorizados: ninguno; SQLite es fallback local de prueba, no sustituye PostgreSQL/PostGIS para la compuerta.
-Firma del responsable: PENDIENTE
-Aceptacion del revisor humano: PENDIENTE; corresponde a Lalo
-Siguiente persona habilitada: PENDIENTE hasta revision, PR integrado y aceptacion humana
-No aceptar con fallas P0. No inventar evidencia.
+- API FastAPI implementada.
+- Validaciones y manejo uniforme de errores.
+- Persistencia SQLAlchemy.
+- Compatibilidad SQLite y PostgreSQL/PostGIS.
+- Migración inicial creada.
+- Scripts de migración e ingesta incluidos.
+- OpenAPI actualizado a versión 1.1.0.
+- Rate limiting implementado.
+- CORS configurado.
+- README actualizado.
+- Evidencia adjunta.
+- Pruebas locales ejecutadas.
+- Integración en develop completada.
+
+Limitaciones / bloqueos:
+- PostgreSQL/PostGIS no ejecutado por falta de entorno disponible.
+- Python 3.12 no disponible en el equipo; validación realizada con Python 3.13.1.
+- IA generativa desactivada.
+- No existe geometría validada; /api/mapa responde 503 DATA_UNAVAILABLE.
+
+Cambios de alcance autorizados:
+- Integración de la dependencia G1 autorizada directamente por Jorge.
+
+Firma del responsable:
+LLUVIA
+
+Aceptación del revisor humano:
+Lalo
+
+Siguiente persona habilitada:
+Lalo (G3 Web, mapa y escenarios)
