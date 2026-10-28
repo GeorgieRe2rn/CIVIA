@@ -20,5 +20,5 @@
   "ml/artifacts/predictions_2024.json": "e0d4725a21c037faf5047e03e0e6010258cc50d1b66099462e2916e03eb1dfac",
   "ml/artifacts/random_forest.joblib": "efc59909b75422ed036a25f4a633b0220bcbf31237b7591c62efcdc2e162be83",
   "ml/artifacts/training_panel.csv": "c4467fa1288f27354c3f108f5627223a7185376eb57395614eab6a61e0054585",
-  "requirements.lock": "9af827597b02df27a5761175555fb9b48dae70f21baf989d31010e9282219f37"
+  "requirements.lock": "ee08109af850e18a87fee1992521035c119de1c7ace6cfe4fb77bef0b56da10e"
 }
