@@ -1,0 +1,74 @@
+{
+  "rows": 750,
+  "sources": [
+    {
+      "year": 2009,
+      "input_rows": 472286,
+      "output_municipalities": 125,
+      "discarded_rows": 0,
+      "missing_required": 0,
+      "duplicate_keys": 0,
+      "source_rows_age_over_120_preserved": 12,
+      "unknown_count": 112661,
+      "nominal_count": 5133870
+    },
+    {
+      "year": 2012,
+      "input_rows": 473537,
+      "output_municipalities": 125,
+      "discarded_rows": 0,
+      "missing_required": 0,
+      "duplicate_keys": 0,
+      "source_rows_age_over_120_preserved": 5,
+      "unknown_count": 6679,
+      "nominal_count": 5027267
+    },
+    {
+      "year": 2015,
+      "input_rows": 497372,
+      "output_municipalities": 125,
+      "discarded_rows": 0,
+      "missing_required": 0,
+      "duplicate_keys": 0,
+      "source_rows_age_over_120_preserved": 0,
+      "unknown_count": 191561,
+      "nominal_count": 5513033
+    },
+    {
+      "year": 2018,
+      "input_rows": 503247,
+      "output_municipalities": 125,
+      "discarded_rows": 0,
+      "missing_required": 0,
+      "duplicate_keys": 0,
+      "source_rows_age_over_120_preserved": 6,
+      "unknown_count": 386113,
+      "nominal_count": 5904226
+    },
+    {
+      "year": 2021,
+      "input_rows": 513309,
+      "output_municipalities": 125,
+      "discarded_rows": 0,
+      "missing_required": 0,
+      "duplicate_keys": 0,
+      "source_rows_age_over_120_preserved": 6,
+      "unknown_count": 209897,
+      "nominal_count": 6214764
+    },
+    {
+      "year": 2024,
+      "input_rows": 539890,
+      "output_municipalities": 125,
+      "discarded_rows": 0,
+      "missing_required": 0,
+      "duplicate_keys": 0,
+      "source_rows_age_over_120_preserved": 0,
+      "unknown_count": 388374,
+      "nominal_count": 6619379
+    }
+  ],
+  "key_name_continuity": true,
+  "geometry_equivalence_verified": false,
+  "source_version": "ine-ccpc-jal-b76f8fc46187"
+}

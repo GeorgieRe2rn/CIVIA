@@ -1,8 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "CIVIA contrato propuesto - congelar G1",
-    "version": "1.0.0"
+    "title": "CIVIA API - contrato G1",
+    "version": "1.1.0",
+    "description": "Contrato G1 para revisión de Lluvia. Cobertura Jalisco/municipios INE; CCPC 2009-2024; tasas entre condición conocida SV+NV, NS separado. Predicción: backtest 2024, no pronóstico futuro. API aún no implementada."
   },
   "servers": [
     {
@@ -98,7 +99,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "get_health"
       }
     },
     "/api/territorios": {
@@ -186,7 +188,8 @@
               "type": "string"
             }
           }
-        ]
+        ],
+        "operationId": "get_territorios"
       }
     },
     "/api/participacion": {
@@ -282,7 +285,8 @@
               "type": "string"
             }
           }
-        ]
+        ],
+        "operationId": "get_participacion"
       }
     },
     "/api/predicciones": {
@@ -367,7 +371,9 @@
               }
             }
           }
-        }
+        },
+        "operationId": "post_predicciones",
+        "description": "Servir predictions_2024.json con metadatos y advertencia de backtest. No usa observación 2024 como input. Solo 2024, otras elecciones 422. Modelo no disponible 503. Nunca entrenar por petición."
       }
     },
     "/api/escenarios": {
@@ -452,7 +458,9 @@
               }
             }
           }
-        }
+        },
+        "operationId": "post_escenarios",
+        "description": "Base = 100 - abstención predicha del backtest 2024. Final=clamp(base+delta_pp,0,100); clamped indica si se saturó. Sin causalidad. Artefacto ausente:503."
       }
     },
     "/api/mapa": {
@@ -583,7 +591,9 @@
               "type": "string"
             }
           }
-        ]
+        ],
+        "operationId": "get_mapa",
+        "description": "G1 no incluye geometrías verificadas. Hasta contar con correspondencia geográfica documentada responder 503 DATA_UNAVAILABLE; nunca inventar GeoJSON."
       }
     },
     "/api/asistente": {
@@ -692,7 +702,68 @@
               }
             }
           }
-        }
+        },
+        "operationId": "post_asistente"
+      }
+    },
+    "/api/elecciones": {
+      "get": {
+        "summary": "Catálogo de las seis elecciones disponibles",
+        "responses": {
+          "200": {
+            "description": "Catálogo",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "meta",
+                    "data",
+                    "sources"
+                  ],
+                  "properties": {
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Election"
+                      }
+                    },
+                    "sources": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Source"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Error estructurado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Error estructurado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get_elecciones"
       }
     }
   },
@@ -716,12 +787,19 @@
               "simulado",
               "no_aplica"
             ]
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         },
         "required": [
           "source_version",
           "timestamp",
-          "data_status"
+          "data_status",
+          "warnings"
         ]
       },
       "Source": {
@@ -753,7 +831,9 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^14[0-9]{3}$",
+            "description": "INE EDOCVE (2) + MPIOCVE (3). No asumir clave INEGI."
           },
           "name": {
             "type": "string"
@@ -761,16 +841,28 @@
           "level": {
             "type": "string",
             "enum": [
-              "estado",
-              "municipio",
-              "seccion"
+              "municipio"
+            ]
+          },
+          "state_id": {
+            "type": "string",
+            "enum": [
+              "14"
+            ]
+          },
+          "code_system": {
+            "type": "string",
+            "enum": [
+              "INE_EDOCVE_MPIOCVE"
             ]
           }
         },
         "required": [
           "id",
           "name",
-          "level"
+          "level",
+          "state_id",
+          "code_system"
         ]
       },
       "Observation": {
@@ -785,7 +877,8 @@
           "participation_pct": {
             "type": "number",
             "minimum": 0,
-            "maximum": 100
+            "maximum": 100,
+            "description": "100*SV/(SV+NV); no representa SV/LN. NS se presenta separado."
           },
           "abstention_pct": {
             "type": "number",
@@ -794,6 +887,64 @@
           },
           "source_id": {
             "type": "string"
+          },
+          "territory_id": {
+            "type": "string"
+          },
+          "election_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "election_type": {
+            "type": "string",
+            "enum": [
+              "federal_concurrente",
+              "federal_intermedia"
+            ]
+          },
+          "nominal_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "voted_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "not_voted_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unknown_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "known_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unknown_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "100*(SV+NS)/LN: extremo aritmético por faltantes, NO intervalo estadístico."
+          },
+          "participation_lower_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "100*(SV+NS)/LN: extremo aritmético por faltantes, NO intervalo estadístico."
+          },
+          "participation_upper_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "100*(SV+NS)/LN: extremo aritmético por faltantes, NO intervalo estadístico."
+          },
+          "denominator": {
+            "type": "string",
+            "enum": [
+              "SV+NV"
+            ]
           }
         },
         "required": [
@@ -801,32 +952,55 @@
           "year",
           "participation_pct",
           "abstention_pct",
-          "source_id"
+          "source_id",
+          "territory_id",
+          "election_date",
+          "election_type",
+          "nominal_count",
+          "voted_count",
+          "not_voted_count",
+          "unknown_count",
+          "known_count",
+          "unknown_pct",
+          "participation_lower_pct",
+          "participation_upper_pct",
+          "denominator"
         ]
       },
       "PredictionRequest": {
         "type": "object",
         "properties": {
           "territory_id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^14[0-9]{3}$"
           },
           "election_id": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "federal-2024"
+            ],
+            "description": "Solo backtest 2024; otros objetivos requieren nuevo artefacto y validación."
           }
         },
         "required": [
           "territory_id",
           "election_id"
-        ]
+        ],
+        "additionalProperties": false
       },
       "ScenarioRequest": {
         "type": "object",
         "properties": {
           "territory_id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^14[0-9]{3}$"
           },
           "election_id": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "federal-2024"
+            ],
+            "description": "Solo backtest 2024; otros objetivos requieren nuevo artefacto y validación."
           },
           "delta_pp": {
             "type": "number",
@@ -838,7 +1012,8 @@
           "territory_id",
           "election_id",
           "delta_pp"
-        ]
+        ],
+        "additionalProperties": false
       },
       "AssistantRequest": {
         "type": "object",
@@ -917,6 +1092,34 @@
             "items": {
               "type": "string"
             }
+          },
+          "territory_id": {
+            "type": "string"
+          },
+          "election_id": {
+            "type": "string",
+            "enum": [
+              "federal-2024"
+            ]
+          },
+          "participation_pct": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "100*(SV+NS)/LN: extremo aritmético por faltantes, NO intervalo estadístico."
+          },
+          "strategy": {
+            "type": "string",
+            "enum": [
+              "random_forest",
+              "baseline_lag6"
+            ]
+          },
+          "evaluation_mode": {
+            "type": "string",
+            "enum": [
+              "retrospective_holdout"
+            ]
           }
         },
         "required": [
@@ -926,7 +1129,12 @@
           "baseline_mae_pp",
           "n_test",
           "interval",
-          "warnings"
+          "warnings",
+          "territory_id",
+          "election_id",
+          "participation_pct",
+          "strategy",
+          "evaluation_mode"
         ]
       },
       "Scenario": {
@@ -958,6 +1166,27 @@
             "enum": [
               "Simulación hipotética"
             ]
+          },
+          "territory_id": {
+            "type": "string"
+          },
+          "election_id": {
+            "type": "string",
+            "enum": [
+              "federal-2024"
+            ]
+          },
+          "base_status": {
+            "type": "string",
+            "enum": [
+              "predicho"
+            ]
+          },
+          "base_evaluation_mode": {
+            "type": "string",
+            "enum": [
+              "retrospective_holdout"
+            ]
           }
         },
         "required": [
@@ -966,7 +1195,11 @@
           "final_abstention_pct",
           "delta_pp",
           "clamped",
-          "label"
+          "label",
+          "territory_id",
+          "election_id",
+          "base_status",
+          "base_evaluation_mode"
         ]
       },
       "Error": {
@@ -998,6 +1231,34 @@
           "meta",
           "error"
         ]
+      },
+      "Election": {
+        "type": "object",
+        "required": [
+          "election_id",
+          "year",
+          "election_date",
+          "election_type"
+        ],
+        "properties": {
+          "election_id": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          },
+          "election_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "election_type": {
+            "type": "string",
+            "enum": [
+              "federal_concurrente",
+              "federal_intermedia"
+            ]
+          }
+        }
       }
     }
   }

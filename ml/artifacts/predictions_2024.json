@@ -1,0 +1,2377 @@
+[
+  {
+    "territory_id": "14001",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.006791469173834,
+    "participation_pct": 51.993208530826166,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14002",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 43.44862611717745,
+    "participation_pct": 56.55137388282255,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14003",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 37.313143867407696,
+    "participation_pct": 62.686856132592304,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14004",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 31.887052638777295,
+    "participation_pct": 68.11294736122271,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14005",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 38.4993970232806,
+    "participation_pct": 61.5006029767194,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14006",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.48585251759334,
+    "participation_pct": 51.51414748240666,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14007",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 39.71488635671548,
+    "participation_pct": 60.28511364328452,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14008",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 47.541390217901125,
+    "participation_pct": 52.458609782098875,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14009",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 41.11030640803346,
+    "participation_pct": 58.88969359196654,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14010",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 22.51334967077565,
+    "participation_pct": 77.48665032922435,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14011",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 29.584374998614777,
+    "participation_pct": 70.41562500138522,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14012",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 34.06393860661832,
+    "participation_pct": 65.93606139338168,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14013",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.54636392421578,
+    "participation_pct": 51.45363607578422,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14014",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 38.03509921893043,
+    "participation_pct": 61.96490078106957,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14015",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.70039447723509,
+    "participation_pct": 51.29960552276491,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14016",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.56495998105097,
+    "participation_pct": 55.43504001894903,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14017",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 40.793556322639226,
+    "participation_pct": 59.206443677360774,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14018",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 49.610404346361875,
+    "participation_pct": 50.389595653638125,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14019",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 21.425356398008102,
+    "participation_pct": 78.5746436019919,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14020",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.998243769755476,
+    "participation_pct": 66.00175623024452,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14021",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.16670179267411,
+    "participation_pct": 51.83329820732589,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14022",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 45.30831471895729,
+    "participation_pct": 54.69168528104271,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14023",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 45.22692807635619,
+    "participation_pct": 54.77307192364381,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14024",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 35.839065904426064,
+    "participation_pct": 64.16093409557394,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14025",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.91451603220193,
+    "participation_pct": 55.08548396779807,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14026",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 43.5183661854285,
+    "participation_pct": 56.4816338145715,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14027",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 31.489140146740034,
+    "participation_pct": 68.51085985325997,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14028",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 21.497698099062383,
+    "participation_pct": 78.50230190093762,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14029",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 32.37676919530721,
+    "participation_pct": 67.62323080469278,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14030",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 32.93216195121662,
+    "participation_pct": 67.06783804878339,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14031",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 42.482864917211,
+    "participation_pct": 57.517135082789,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14032",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 21.425356398008102,
+    "participation_pct": 78.5746436019919,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14033",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.44928586952706,
+    "participation_pct": 66.55071413047294,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14034",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.18933608943206,
+    "participation_pct": 51.81066391056794,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14035",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 39.07074626179566,
+    "participation_pct": 60.92925373820434,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14036",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.11867587735865,
+    "participation_pct": 51.88132412264135,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14037",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 40.75253352500911,
+    "participation_pct": 59.24746647499089,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14038",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 42.36154336687111,
+    "participation_pct": 57.63845663312889,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14039",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.298508359170754,
+    "participation_pct": 51.701491640829246,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14040",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 32.97979571445357,
+    "participation_pct": 67.02020428554643,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14041",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.985752160913925,
+    "participation_pct": 55.014247839086075,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14042",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 35.36883213796053,
+    "participation_pct": 64.63116786203946,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14043",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 40.52810740546662,
+    "participation_pct": 59.47189259453338,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14044",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 37.66900054482308,
+    "participation_pct": 62.33099945517692,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14045",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 42.14978304096171,
+    "participation_pct": 57.85021695903829,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14046",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.82049327925473,
+    "participation_pct": 51.17950672074527,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14047",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 42.765571539051145,
+    "participation_pct": 57.234428460948855,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14048",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.18403709999405,
+    "participation_pct": 51.81596290000595,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14049",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.94557895519337,
+    "participation_pct": 55.05442104480663,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14050",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.20296938123895,
+    "participation_pct": 51.79703061876105,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14051",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 42.774850073499486,
+    "participation_pct": 57.225149926500514,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14052",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.56588400794243,
+    "participation_pct": 51.43411599205757,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14053",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 43.35003152706014,
+    "participation_pct": 56.64996847293986,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14054",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 39.774428767137984,
+    "participation_pct": 60.225571232862016,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14055",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.8884704120852,
+    "participation_pct": 51.1115295879148,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14056",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 46.678152701162006,
+    "participation_pct": 53.321847298837994,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14057",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.979037605727214,
+    "participation_pct": 55.020962394272786,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14058",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 28.887636287950016,
+    "participation_pct": 71.11236371204998,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14059",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 28.44221826750088,
+    "participation_pct": 71.55778173249912,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14060",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 40.48156902124374,
+    "participation_pct": 59.51843097875626,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14061",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 35.08880843175825,
+    "participation_pct": 64.91119156824175,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14062",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 46.92066449494533,
+    "participation_pct": 53.07933550505467,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14063",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.96632347256349,
+    "participation_pct": 66.03367652743651,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14064",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 31.388753977494904,
+    "participation_pct": 68.6112460225051,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14065",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.910907562377915,
+    "participation_pct": 51.089092437622085,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14066",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 41.46371147694272,
+    "participation_pct": 58.53628852305728,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14067",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 40.62292411749886,
+    "participation_pct": 59.37707588250114,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14068",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.58808093121449,
+    "participation_pct": 51.41191906878551,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14069",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 53.100178070650394,
+    "participation_pct": 46.899821929349606,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14070",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 41.51300634784313,
+    "participation_pct": 58.48699365215687,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14071",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.34310654818504,
+    "participation_pct": 55.65689345181496,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14072",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 49.581102834902275,
+    "participation_pct": 50.418897165097725,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14073",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 34.466551712114516,
+    "participation_pct": 65.53344828788548,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14074",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 37.47005164168647,
+    "participation_pct": 62.52994835831353,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14075",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 49.17383900556755,
+    "participation_pct": 50.82616099443245,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14076",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 41.73033828374228,
+    "participation_pct": 58.26966171625772,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14077",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 21.425356398008102,
+    "participation_pct": 78.5746436019919,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14078",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 31.39423618253845,
+    "participation_pct": 68.60576381746155,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14079",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 45.39297400365174,
+    "participation_pct": 54.60702599634826,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14080",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 45.84510584396129,
+    "participation_pct": 54.15489415603871,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14081",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 23.561040451041755,
+    "participation_pct": 76.43895954895825,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14082",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 31.68613987637255,
+    "participation_pct": 68.31386012362745,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14083",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.92907973527127,
+    "participation_pct": 55.07092026472873,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14084",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.80025557489305,
+    "participation_pct": 51.19974442510695,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14085",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.23002902175264,
+    "participation_pct": 66.76997097824736,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14086",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.568316338155356,
+    "participation_pct": 51.431683661844644,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14087",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 27.440164009799087,
+    "participation_pct": 72.55983599020091,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14088",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 43.402908635093745,
+    "participation_pct": 56.597091364906255,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14089",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 35.60411876080625,
+    "participation_pct": 64.39588123919376,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14090",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.865109537483114,
+    "participation_pct": 66.13489046251689,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14091",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 37.981015168131215,
+    "participation_pct": 62.018984831868785,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14092",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.4827265563039,
+    "participation_pct": 51.5172734436961,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14093",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 35.51140325720411,
+    "participation_pct": 64.48859674279589,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14094",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 49.43872443687493,
+    "participation_pct": 50.56127556312507,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14095",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.36790655990796,
+    "participation_pct": 51.63209344009204,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14096",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 34.86966714665816,
+    "participation_pct": 65.13033285334184,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14097",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.13550152271574,
+    "participation_pct": 51.86449847728426,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14098",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 50.01962552298028,
+    "participation_pct": 49.98037447701972,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14099",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 49.41240539274813,
+    "participation_pct": 50.58759460725187,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14100",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 35.439584519554536,
+    "participation_pct": 64.56041548044547,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14101",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 46.6311513958095,
+    "participation_pct": 53.3688486041905,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14102",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 50.02284024817127,
+    "participation_pct": 49.97715975182873,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14103",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 34.95424190663071,
+    "participation_pct": 65.04575809336929,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14104",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 27.22645909626455,
+    "participation_pct": 72.77354090373545,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14105",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.75742461148175,
+    "participation_pct": 66.24257538851825,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14106",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.95858122516974,
+    "participation_pct": 55.04141877483026,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14107",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 28.876941933333455,
+    "participation_pct": 71.12305806666654,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14108",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 33.840750123775464,
+    "participation_pct": 66.15924987622454,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14109",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.90969687981657,
+    "participation_pct": 55.09030312018343,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14110",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 40.73828165602476,
+    "participation_pct": 59.26171834397524,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14111",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.158702120617015,
+    "participation_pct": 55.841297879382985,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14112",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.20595353946758,
+    "participation_pct": 55.79404646053242,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14113",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 32.92862962251418,
+    "participation_pct": 67.07137037748582,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14114",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 47.88253002080467,
+    "participation_pct": 52.11746997919533,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14115",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 31.623143635536334,
+    "participation_pct": 68.37685636446366,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14116",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.117602395647616,
+    "participation_pct": 51.882397604352384,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14117",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 43.96573065417312,
+    "participation_pct": 56.03426934582688,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14118",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.71372156296181,
+    "participation_pct": 55.28627843703819,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14119",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.42849357872429,
+    "participation_pct": 55.57150642127571,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14120",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.3530170325594,
+    "participation_pct": 51.6469829674406,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14121",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.048855378988016,
+    "participation_pct": 55.951144621011984,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14122",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 32.41177355143197,
+    "participation_pct": 67.58822644856804,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14123",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 44.04621813863914,
+    "participation_pct": 55.95378186136086,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14124",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 50.04170304426535,
+    "participation_pct": 49.95829695573465,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  },
+  {
+    "territory_id": "14125",
+    "election_id": "federal-2024",
+    "evaluation_mode": "retrospective_holdout",
+    "abstention_pct": 48.19784105748892,
+    "participation_pct": 51.80215894251108,
+    "model_version": "g1-ine-ccpc-jal-b76f8fc46187",
+    "strategy": "random_forest",
+    "mae_pp": 3.2418158185907844,
+    "baseline_mae_pp": 3.9801046015743995,
+    "n_test": 125,
+    "interval": null,
+    "warnings": [
+      "Backtest retrospectivo, no pronóstico validado de elecciones futuras",
+      "Solo 125 municipios y una elección final de prueba; no equivale a 125 experimentos temporales independientes",
+      "Sin intervalo: no hay bloque de calibración temporal independiente",
+      "NS y cartografía retrospectiva limitan comparabilidad; no es inferencia causal"
+    ]
+  }
+]

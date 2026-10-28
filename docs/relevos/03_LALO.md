@@ -4,6 +4,7 @@ Etapa y compuerta: 3 / G3
 Responsable: LALO
 Revisor: Viviana
 Fecha, hora, America/Hermosillo:
+Destino de integración: develop
 PR y SHA integrado:
 Dataset, modelo, contrato y hashes:
 Archivos y comandos reproducibles:
