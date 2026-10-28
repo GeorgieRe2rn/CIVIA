@@ -4,7 +4,7 @@ Repositorio compartido de Jorge, Lluvia, Lalo y Viviana. Analítica electoral ag
 
 ## Estado actual
 
-En la rama `etapa/01-datos-ml` se implementó G1 para revisión: pipeline oficial INE de 125 municipios de Jalisco, seis elecciones (2009-2024), modelo evaluado retrospectivamente, contrato y pruebas. Ver el PR de etapa para estado actual. No hay aceptación humana ni integración de G1 aprobadas automáticamente. API, PostgreSQL, web y app móvil corresponden a las etapas siguientes y aún no se implementaron.
+En la rama `etapa/01-datos-ml` se implementó G1 para revisión: pipeline oficial INE de 125 municipios de Jalisco, seis elecciones (2009-2024), modelo evaluado retrospectivamente, contrato y pruebas. La rama `etapa/02-api` agrega la API G2 para revisión, con ingesta idempotente y migracion PostgreSQL/PostGIS. No hay aceptación humana ni integración automática de G2; web y app móvil corresponden a las etapas siguientes.
 
 ## Qué hace cada persona
 
@@ -39,15 +39,25 @@ No existe una carpeta kit_github que deban instalar. Los archivos ya están en s
 | `.gitignore` | Evita incorporar secretos, dependencias y archivos locales. |
 | `.env.example` | Lista de variables sin claves; copiar a `.env` local al implementar y completar solo en el equipo. |
 
-Las carpetas `apps/web`, `apps/mobile` y `services/api` contienen solo instrucciones de la etapa futura; no son aplicaciones ejecutables todavía. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen la implementación G1.
+`services/api` contiene la implementación G2 y su README de arranque; `apps/web` y `apps/mobile` siguen siendo instrucciones de sus etapas futuras. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen G1 y las pruebas/scripts de API.
 
 ## Seguridad y alcance
 
 No publicar claves ni datos personales. Cifras de mockups son ficticias; datos reales con fuentes y versiones. Separar observado, predicho y simulado. Gemini apagado por defecto, opcional y sin facturación. No predicción individual ni persuasión partidista. Ante un defecto previo, pausar etapa activa, corregir con su autor, revisar y reanudar sin trabajo simultáneo.
 
+## API G2 local
+
+Con Python 3.12 y `requirements.lock` instalado, la API usa SQLite local cuando `DATABASE_URL` está vacío:
+
+```powershell
+uvicorn app.main:app --app-dir services/api --reload
+```
+
+Para PostgreSQL/PostGIS, ejecutar `python scripts/migrate_api.py`, después `python scripts/ingest_api.py` y arrancar Uvicorn. Ver [services/api/README.md](services/api/README.md). La geometría permanece no disponible hasta contar con correspondencia documentada.
+
 ## Revisión y protección
 
-Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. Protección no configurada. G1 agrega `.github/workflows/g1.yml`: verificación de hashes, contrato y tests sobre Windows/Python 3.12. El resultado remoto debe consultarse en Actions; su existencia no significa ejecución aprobada.
+Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. Protección no configurada. G1 agrega `.github/workflows/g1.yml`: verificación de hashes, contrato y tests sobre Windows/Python 3.12. G2 agrega pruebas de API ejecutables con pytest. El resultado remoto debe consultarse en Actions; su existencia no significa ejecución aprobada.
 
 ## Flujo GitHub explicado
 
