@@ -58,11 +58,20 @@ móvil y E2E en Actions. La ejecución remota del commit `f430b15` terminó
 `Mobile Expo` y `E2E web contra API` pasaron. Evidencia:
 `https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41028426892`.
 
-La rama `etapa/04-mobile-release` está publicada en `origin` con el commit
-`50ff308`. La creación del PR hacia `develop` no terminó: los POST autenticados
+La rama `etapa/04-mobile-release` tiene el commit local `58f3c6c`, pendiente de
+publicar. La creación del PR hacia `develop` no terminó: los POST autenticados
 al API de GitHub agotaron timeout y la sesión web disponible no está autenticada.
 No se hizo push directo a `develop`; el enlace de comparación es
 `https://github.com/GeorgieRe2rn/CIVIA/compare/develop...etapa/04-mobile-release`.
+
+## Prueba viva del emulador Android
+
+- AVD: `Pixel_9_Pro_API_35`; dispositivo ADB: `emulator-5554`.
+- Expo: `EXPO_PUBLIC_API_BASE_URL=http://10.0.2.2:8000`.
+- API host: `200`; conexión TCP Android hacia `10.0.2.2:8000`: correcta.
+- La pantalla móvil mostró estado `API`, etiqueta `CIVIA`, 125 territorios,
+  seis elecciones y valores observados/predichos.
+- Esto valida el emulador; no sustituye una prueba en teléfono físico por LAN.
 
 ## Validacion PostgreSQL local
 
@@ -79,6 +88,7 @@ ingesta dos veces y `python scripts/verify_postgres.py`:
 
 - Ejecutar la aplicacion en un telefono fisico conectado por LAN con la API
   escuchando en una interfaz accesible.
+- Publicar el commit `58f3c6c` y ejecutar Actions sobre el commit final.
 - Crear el PR de G4 hacia `develop` con una sesión GitHub que pueda completar el
   POST.
 - Revisar y aceptar el relevo mediante la cuenta autentica de Jorge.
