@@ -1,7 +1,7 @@
 {
   "contract_version": "1.1.0",
   "openapi_version": "3.0.3",
-  "sha256": "70991b4910ee2e7b2177311a28f6fbfd81f19913f606bd6106992d254b32a16b",
+  "sha256": "72f08cbd0f1ffe1978733f5cca3064eea57cbead6c6438461316c1625ef67c95",
   "state": "FROZEN_G1_INTEGRATED_BY_OWNER",
   "reviewer": "Lluvia",
   "scope": "G1, antes de implementar consumidores",
