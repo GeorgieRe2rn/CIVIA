@@ -1,7 +1,7 @@
 # Evidencia tecnica G3
 
-Estado de acta: PENDIENTE. Esta evidencia no sustituye la revision humana, la
-PR ni la integracion en `develop`.
+Estado de acta: ACEPTADA POR AUTORIZACION EXPLICITA DE VIVIANA. GitHub no
+registra una revision separada porque la cuenta autenticada era la autora del PR.
 
 ## Entorno
 
@@ -71,5 +71,15 @@ Con la API G2 levantada se verifico en navegador:
   cliente lo captura y presenta el estado accesible esperado.
 - El CORS local de la API acepta por defecto `http://localhost:5173`; para usar
   `127.0.0.1:5173` se debe configurar `CORS_ORIGINS` explicitamente.
-- No se ejecutaron pruebas desde telefono/LAN, PR, push, merge ni aceptacion
-  humana.
+- No se ejecutaron pruebas desde telefono/LAN.
+
+## Integracion remota
+
+- PR: [#7](https://github.com/GeorgieRe2rn/CIVIA/pull/7), base `develop`, compare
+  `etapa/03-web`.
+- Estado: integrado mediante **Squash and merge**.
+- Merge commit en `develop`: `fec9404cb642080c571cde9629c365c510f34fcd`.
+- Check remoto `verify`: `pass`.
+- GitHub no registra una aprobacion separada porque la cuenta autenticada era la
+  autora del PR; no se suplanto otra identidad.
+- La autorizacion humana de Viviana se registro en el acta de relevo.
