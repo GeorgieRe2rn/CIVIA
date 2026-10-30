@@ -4,9 +4,9 @@ Repositorio compartido de Jorge, Lluvia, Lalo y Viviana. Analítica electoral ag
 
 ## Estado actual
 
-`develop` contiene G1 y G2 integradas mediante PR. G1 aporta el pipeline oficial del INE para 125 municipios de Jalisco, seis elecciones (2009-2024), el modelo retrospectivo, el contrato y sus pruebas. G2 aporta la API FastAPI, la ingesta idempotente, la persistencia local con SQLite y la migración preparada para PostgreSQL/PostGIS; este último motor todavía no se ha validado en un entorno real.
+`develop` contiene G1, G2 y G3 integradas mediante PR. G1 aporta el pipeline oficial del INE para 125 municipios de Jalisco, seis elecciones (2009-2024), el modelo retrospectivo, el contrato y sus pruebas. G2 aporta la API FastAPI, la ingesta idempotente, la persistencia local con SQLite y la migración preparada para PostgreSQL/PostGIS; este último motor todavía no se ha validado en un entorno real. G3 se integró mediante PR #7 con merge squash `fec9404`; su check `verify` pasó.
 
-La rama `etapa/03-web` contiene una implementación G3 local en el working tree, pero sus archivos principales aún no tienen commit ni PR. La revisión humana de G3 sigue pendiente. G4 móvil todavía no está implementada.
+La revisión GitHub separada de G3 no quedó registrada porque la cuenta autenticada era la autora del PR y GitHub bloquea la auto-revisión; la autorización explícita de Viviana queda documentada en el acta. G4 móvil todavía no está implementada.
 
 ## Qué hace cada persona
 
@@ -41,7 +41,7 @@ No existe una carpeta kit_github que deban instalar. Los archivos ya están en s
 | `.gitignore` | Evita incorporar secretos, dependencias y archivos locales. |
 | `.env.example` | Lista de variables sin claves; copiar a `.env` local al implementar y completar solo en el equipo. |
 
-`services/api` contiene la implementación G2 y su README de arranque. `apps/web` contiene el candidato local de G3 y su evidencia, pendiente de integración; `apps/mobile` conserva únicamente las instrucciones de G4. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen G1 y las pruebas/scripts de API.
+`services/api` contiene la implementación G2 y su README de arranque. `apps/web` contiene la implementación G3 integrada y su evidencia; `apps/mobile` conserva únicamente las instrucciones de G4. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen G1 y las pruebas/scripts de API.
 
 ## Seguridad y alcance
 
@@ -97,4 +97,4 @@ Para comprobar con descargas nuevas, ejecutar `python scripts/reproduce_check.py
 
 La tasa usa **SV/(SV+NV)**; NS se informa por separado, no como abstención. Claves son **INE**, no INEGI: Guadalajara **14041**. Solo se sirve backtest retrospectivo 2024, no pronósticos futuros. `interval=null` y no hay geometría verificada. Los resultados no prueban causalidad ni generalización a otras elecciones.
 
-Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y las actas en [docs/relevos](docs/relevos). El contrato interno 1.1.0 tiene ocho endpoints y ya es consumido por la API G2 y el candidato web G3. La API se ha probado localmente con SQLite; PostgreSQL/PostGIS y la geometría verificada siguen pendientes.
+Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y las actas en [docs/relevos](docs/relevos). El contrato interno 1.1.0 tiene ocho endpoints y es consumido por la API G2 y la web G3. La API se ha probado localmente con SQLite; PostgreSQL/PostGIS y la geometría verificada siguen pendientes.
