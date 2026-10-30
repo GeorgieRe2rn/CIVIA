@@ -53,8 +53,10 @@ Resultados observados:
   de mapa sin geometria.
 
 El workflow `.github/workflows/integral.yml` reproduce API, PostGIS, web,
-móvil y E2E en Actions; todavía no se ha observado una ejecución remota del
-workflow.
+móvil y E2E en Actions. La ejecución remota del commit `f430b15` terminó
+`success`: `API y contrato`, `PostgreSQL y PostGIS`, `Web y compilacion`,
+`Mobile Expo` y `E2E web contra API` pasaron. Evidencia:
+`https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41028426892`.
 
 La rama `etapa/04-mobile-release` está publicada en `origin` con el commit
 `50ff308`. La creación del PR hacia `develop` no terminó: los POST autenticados
@@ -77,7 +79,6 @@ ingesta dos veces y `python scripts/verify_postgres.py`:
 
 - Ejecutar la aplicacion en un telefono fisico conectado por LAN con la API
   escuchando en una interfaz accesible.
-- Ejecutar el workflow integral en Actions y conservar su resultado remoto.
 - Crear el PR de G4 hacia `develop` con una sesión GitHub que pueda completar el
   POST.
 - Revisar y aceptar el relevo mediante la cuenta autentica de Jorge.

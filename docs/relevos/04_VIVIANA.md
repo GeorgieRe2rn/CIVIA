@@ -24,10 +24,9 @@ Pruebas actuales: móvil con `npm ci`, `npm run typecheck`,
 ingesta y endpoints verificados.
 Evidencia: `docs/evidencias/etapa-4/RESULTADOS.md`.
 
-Limitaciones: no se ha probado telefono fisico/LAN; el workflow integral aun
-no tiene ejecucion remota observada; geometria territorial sigue ausente;
-quedan 7 vulnerabilidades bajas transitivas de Expo CLI; no hay aprobacion
-humana de Jorge registrada; falta crear el PR G4.
+Limitaciones: no se ha probado telefono fisico/LAN; geometria territorial
+sigue ausente; quedan 7 vulnerabilidades bajas transitivas de Expo CLI; no hay
+aprobacion humana de Jorge registrada; falta crear el PR G4.
 
 Siguiente paso: crear el PR G4, ejecutar CI remoto, probar en dispositivo/LAN,
 solicitar la revision autentica de Jorge y actualizar esta acta solo con
