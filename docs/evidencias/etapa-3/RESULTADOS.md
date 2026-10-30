@@ -63,6 +63,29 @@ Con la API G2 levantada se verifico en navegador:
 - Se implementaron estados visibles de carga, error, vacio y no disponible,
   etiquetas de formulario, tabla con encabezados y foco `:focus-visible`.
 
+## Validacion PostgreSQL/PostGIS posterior a G3
+
+El 2026-10-30 se valido la ruta real de persistencia con un contenedor temporal
+local `postgis/postgis:16-3.4` (PostgreSQL `16.4`, PostGIS `3.4.3`) en
+`127.0.0.1:55432`. No se escribieron credenciales ni configuracion de base de
+datos en el repositorio.
+
+- `python scripts/migrate_api.py`: `001_initial.sql` aplicado; una segunda
+  ejecucion reporto `ninguna`.
+- `python scripts/ingest_api.py`: ejecucion correcta y repeticion correcta, con
+  la version `ine-ccpc-jal-b76f8fc46187`.
+- Conteos verificados en PostgreSQL: 6 fuentes, 125 territorios, 6 elecciones,
+  750 observaciones, 1 version de modelo y 125 predicciones.
+- Claves duplicadas de participacion y prediccion: 0 en ambos casos.
+- `PostGIS_Full_Version()`: PostGIS `3.4.3`; geometria no nula: 0.
+- API sobre esa misma base: health `200`, territorios `200`, elecciones `200`,
+  historial `200`, prediccion `200`, escenario `200`, asistente determinista
+  `200`, OpenAPI `1.1.0` y mapa `503 DATA_UNAVAILABLE`.
+- La primera ingesta revelo que el ORM enviaba la columna PostGIS `geometry`
+  como `VARCHAR`. `services/api/app/store.py` fue corregido para omitir esa
+  columna nullable al insertar territorios sin geometria verificada.
+- Suite posterior a la correccion: `31 passed`.
+
 ## Limitaciones
 
 - El entorno local de G2 no tiene geometria verificada, por eso el mapa solo se
@@ -71,7 +94,7 @@ Con la API G2 levantada se verifico en navegador:
   cliente lo captura y presenta el estado accesible esperado.
 - El CORS local de la API acepta por defecto `http://localhost:5173`; para usar
   `127.0.0.1:5173` se debe configurar `CORS_ORIGINS` explicitamente.
-- No se ejecutaron pruebas desde telefono/LAN.
+- No se ejecutaron pruebas desde telefono/LAN, movil ni E2E.
 
 ## Integracion remota
 
