@@ -15,3 +15,5 @@ Detenerse si falla un comando. Para ejecutar toda la secuencia con parada autom�
 Reconstrucción completamente independiente desde nuevas descargas: `python scripts/reproduce_check.py`. Con bytes ya descargados y verificados: `python scripts/reproduce_check.py --from-cache`. Ambos comparan SHA256 de todos los artefactos de datos/modelo con la referencia guardada.
 
 `freeze_contract.py` genera ejemplos desde datos reales y prepara la propuesta 1.1.0. Se ejecutó en G1; no ejecutarlo para alterar un contrato aceptado sin revisión. `python -m civia_data.verify --write` renueva el manifest SOLO al producir una nueva versión revisada: no usarlo para ocultar un hash incorrecto.
+
+Para validar una base PostgreSQL/PostGIS fresca después de migrar e ingerir dos veces, usar `python scripts/verify_postgres.py` con `DATABASE_URL` configurada. Comprueba conteos, duplicados, geometría y los endpoints de la API; no crea geometría ficticia.

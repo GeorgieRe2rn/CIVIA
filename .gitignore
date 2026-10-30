@@ -10,5 +10,7 @@ data/raw/
 work/
 *.egg-info/
 .pytest_cache/
+.playwright/
+test-results/
 build/
 .venv-verify/

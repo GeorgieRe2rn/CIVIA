@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "CIVIA",
+    "slug": "civia",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "civia",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.civia.app"
+    },
+    "android": {
+      "package": "org.civia.app"
+    }
+  }
+}
