@@ -56,6 +56,12 @@ El workflow `.github/workflows/integral.yml` reproduce API, PostGIS, web,
 móvil y E2E en Actions; todavía no se ha observado una ejecución remota del
 workflow.
 
+La rama `etapa/04-mobile-release` está publicada en `origin` con el commit
+`50ff308`. La creación del PR hacia `develop` no terminó: los POST autenticados
+al API de GitHub agotaron timeout y la sesión web disponible no está autenticada.
+No se hizo push directo a `develop`; el enlace de comparación es
+`https://github.com/GeorgieRe2rn/CIVIA/compare/develop...etapa/04-mobile-release`.
+
 ## Validacion PostgreSQL local
 
 En un contenedor fresco `postgis/postgis:16-3.4` se ejecutaron migracion,
@@ -72,5 +78,7 @@ ingesta dos veces y `python scripts/verify_postgres.py`:
 - Ejecutar la aplicacion en un telefono fisico conectado por LAN con la API
   escuchando en una interfaz accesible.
 - Ejecutar el workflow integral en Actions y conservar su resultado remoto.
+- Crear el PR de G4 hacia `develop` con una sesión GitHub que pueda completar el
+  POST.
 - Revisar y aceptar el relevo mediante la cuenta autentica de Jorge.
 - Integrar la rama por PR hacia `develop`; no hacer push directo.
