@@ -5,7 +5,7 @@ Responsable: LALO
 Revisor: Viviana
 Fecha, hora, America/Hermosillo: 2026-10-28; hora no registrada
 Destino de integración: develop
-PR y SHA integrado: PENDIENTE; commits de la rama `5e9a7a7`, `36bf669`; rama publicada en `origin/etapa/03-web`; PR aún no creado
+PR y SHA integrado: PENDIENTE; commits de implementación `5e9a7a7`, `36bf669`; actualización del acta `4fe9844`; rama publicada en `origin/etapa/03-web`; PR aún no creado
 Dataset, modelo, contrato y hashes: fuente `ine-ccpc-jal-b76f8fc46187`; contrato OpenAPI `1.1.0`; predicción y escenario servidos por API G2
 Archivos y comandos reproducibles: `apps/web`; `cd apps/web`; `npm install`; `npm run typecheck`; `npm run build`; evidencia en `docs/evidencias/etapa-3/RESULTADOS.md`
 Pruebas, resultado y evidencia: typecheck y build correctos; integración real verificada en `http://localhost:5173`; `npm audit --omit=dev` sin vulnerabilidades
