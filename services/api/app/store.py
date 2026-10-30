@@ -5,7 +5,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Iterator
 
-from sqlalchemy import create_engine, event, inspect, select, text
+from sqlalchemy import create_engine, event, insert, inspect, select, text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session, load_only, sessionmaker
 from sqlalchemy.pool import StaticPool
@@ -186,8 +186,8 @@ class DataStore:
                     ],
                 )
                 if existing is None:
-                    session.add(
-                        TerritoryRow(
+                    session.execute(
+                        insert(TerritoryRow).values(
                             id=territory_id,
                             name=str(territory["name"]),
                             level=str(territory["level"]),

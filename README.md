@@ -4,7 +4,7 @@ Repositorio compartido de Jorge, Lluvia, Lalo y Viviana. Analítica electoral ag
 
 ## Estado actual
 
-`develop` contiene G1, G2 y G3 integradas mediante PR. G1 aporta el pipeline oficial del INE para 125 municipios de Jalisco, seis elecciones (2009-2024), el modelo retrospectivo, el contrato y sus pruebas. G2 aporta la API FastAPI, la ingesta idempotente, la persistencia local con SQLite y la migración preparada para PostgreSQL/PostGIS; este último motor todavía no se ha validado en un entorno real. G3 se integró mediante PR #7 con merge squash `fec9404`; su check `verify` pasó.
+`develop` contiene G1, G2 y G3 integradas mediante PR. G1 aporta el pipeline oficial del INE para 125 municipios de Jalisco, seis elecciones (2009-2024), el modelo retrospectivo, el contrato y sus pruebas. G2 aporta la API FastAPI, la ingesta idempotente, la persistencia local con SQLite y la migración PostgreSQL/PostGIS, validada en un contenedor local real. G3 se integró mediante PR #7 con merge squash `fec9404`; su check `verify` pasó.
 
 La revisión GitHub separada de G3 no quedó registrada porque la cuenta autenticada era la autora del PR y GitHub bloquea la auto-revisión; la autorización explícita de Viviana queda documentada en el acta. G4 móvil todavía no está implementada.
 
@@ -55,7 +55,7 @@ Con Python 3.12 y `requirements.lock` instalado, la API usa SQLite local cuando 
 uvicorn app.main:app --app-dir services/api --reload
 ```
 
-Para PostgreSQL/PostGIS, ejecutar `python scripts/migrate_api.py`, después `python scripts/ingest_api.py` y arrancar Uvicorn. Ver [services/api/README.md](services/api/README.md). La geometría permanece no disponible hasta contar con correspondencia documentada.
+Para PostgreSQL/PostGIS, ejecutar `python scripts/migrate_api.py`, después `python scripts/ingest_api.py` y arrancar Uvicorn. Ver [services/api/README.md](services/api/README.md). La ruta fue validada localmente; la geometría permanece no disponible hasta contar con correspondencia documentada.
 
 ## Revisión y protección
 
@@ -97,4 +97,4 @@ Para comprobar con descargas nuevas, ejecutar `python scripts/reproduce_check.py
 
 La tasa usa **SV/(SV+NV)**; NS se informa por separado, no como abstención. Claves son **INE**, no INEGI: Guadalajara **14041**. Solo se sirve backtest retrospectivo 2024, no pronósticos futuros. `interval=null` y no hay geometría verificada. Los resultados no prueban causalidad ni generalización a otras elecciones.
 
-Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y las actas en [docs/relevos](docs/relevos). El contrato interno 1.1.0 tiene ocho endpoints y es consumido por la API G2 y la web G3. La API se ha probado localmente con SQLite; PostgreSQL/PostGIS y la geometría verificada siguen pendientes.
+Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y las actas en [docs/relevos](docs/relevos). El contrato interno 1.1.0 tiene ocho endpoints y es consumido por la API G2 y la web G3. La API se ha probado con SQLite y PostgreSQL/PostGIS real; la geometría verificada, móvil, E2E y CI integral siguen pendientes.
