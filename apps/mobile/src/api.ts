@@ -44,11 +44,16 @@ export interface Observation {
   abstention_pct: number;
   source_id: string;
   territory_id: string;
+  election_date: string;
+  election_type: "federal_concurrente" | "federal_intermedia";
   nominal_count: number;
   voted_count: number;
   not_voted_count: number;
   unknown_count: number;
+  known_count: number;
   unknown_pct: number;
+  participation_lower_pct: number;
+  participation_upper_pct: number;
   denominator: "SV+NV";
 }
 

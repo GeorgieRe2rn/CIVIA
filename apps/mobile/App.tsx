@@ -169,7 +169,7 @@ function App() {
       <ScrollView contentContainerStyle={styles.screen} keyboardShouldPersistTaps="handled">
         <View style={styles.header}>
           <View>
-            <Text style={styles.kicker}>CIVIA / G4 MÓVIL</Text>
+            <Text style={styles.kicker}>CIVIA</Text>
             <Text style={styles.title}>Datos para comprender</Text>
           </View>
           <View style={[styles.statusPill, health?.data.status === "ok" ? styles.statusOnline : styles.statusOffline]}>
