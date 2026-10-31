@@ -53,16 +53,16 @@ Resultados observados:
   de mapa sin geometria.
 
 El workflow `.github/workflows/integral.yml` reproduce API, PostGIS, web,
-móvil y E2E en Actions. La ejecución push del commit final `ff6eb75` terminó
+móvil y E2E en Actions. La ejecución push del commit G4 `604ce83` terminó
 `success`: `API y contrato`, `PostgreSQL y PostGIS`, `Web y compilacion`,
 `Mobile Expo` y `E2E web contra API` pasaron. Evidencia:
 `https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41144688515`.
 
-La rama `etapa/04-mobile-release` está publicada en `origin` con el commit
-`ff6eb75`. El PR G4 #10 hacia `develop` está abierto y sus checks de integración
-pasaron en `https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41174200896`.
+La rama `etapa/04-mobile-release` está publicada en `origin` con el commit G4
+`604ce83`. El PR G4 #10 hacia `develop` está abierto y sus checks de integración
+pasaron en `https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41174335091`.
 El check histórico de G1 también pasó en
-`https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41174200924`. No se hizo
+`https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41174335333`. No se hizo
 push directo a `develop`; el PR es
 `https://github.com/GeorgieRe2rn/CIVIA/pull/10`.
 

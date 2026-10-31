@@ -9,7 +9,7 @@ Destino de integración: develop
 Rama de trabajo: `etapa/04-mobile-release`
 Dependencia: G3 integrada mediante PR #7 y PR #8; acta G3 aceptada por
 autorizacion explicita. La correccion PostGIS sigue en el PR #9 abierto.
-Commit de trabajo: `ff6eb75`, rama publicada en `origin`; PR G4 #10 abierto hacia
+Commit G4 publicado y verificado: `604ce83`, rama publicada en `origin`; PR G4 #10 abierto hacia
 `develop`. No se hizo push directo a `develop`.
 
 Cambios actuales: cliente Expo/React Native en `apps/mobile`, cliente tipado
