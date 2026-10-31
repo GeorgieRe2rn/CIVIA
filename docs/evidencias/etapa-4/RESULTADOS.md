@@ -53,16 +53,18 @@ Resultados observados:
   de mapa sin geometria.
 
 El workflow `.github/workflows/integral.yml` reproduce API, PostGIS, web,
-móvil y E2E en Actions. La ejecución remota del commit `f430b15` terminó
+móvil y E2E en Actions. La ejecución push del commit final `ff6eb75` terminó
 `success`: `API y contrato`, `PostgreSQL y PostGIS`, `Web y compilacion`,
 `Mobile Expo` y `E2E web contra API` pasaron. Evidencia:
-`https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41028426892`.
+`https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41144688515`.
 
-La rama `etapa/04-mobile-release` tiene el commit local `58f3c6c`, pendiente de
-publicar. La creación del PR hacia `develop` no terminó: los POST autenticados
-al API de GitHub agotaron timeout y la sesión web disponible no está autenticada.
-No se hizo push directo a `develop`; el enlace de comparación es
-`https://github.com/GeorgieRe2rn/CIVIA/compare/develop...etapa/04-mobile-release`.
+La rama `etapa/04-mobile-release` está publicada en `origin` con el commit
+`ff6eb75`. El PR G4 #10 hacia `develop` está abierto y sus checks de integración
+pasaron en `https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41174200896`.
+El check histórico de G1 también pasó en
+`https://github.com/GeorgieRe2rn/CIVIA/actions/runs/41174200924`. No se hizo
+push directo a `develop`; el PR es
+`https://github.com/GeorgieRe2rn/CIVIA/pull/10`.
 
 ## Prueba viva del emulador Android
 
@@ -88,8 +90,6 @@ ingesta dos veces y `python scripts/verify_postgres.py`:
 
 - Ejecutar la aplicacion en un telefono fisico conectado por LAN con la API
   escuchando en una interfaz accesible.
-- Publicar el commit `58f3c6c` y ejecutar Actions sobre el commit final.
-- Crear el PR de G4 hacia `develop` con una sesión GitHub que pueda completar el
-  POST.
+- Revisar y, si procede, integrar el PR G4 #10 hacia `develop`.
 - Revisar y aceptar el relevo mediante la cuenta autentica de Jorge.
-- Integrar la rama por PR hacia `develop`; no hacer push directo.
+- No hacer push directo a `develop`.

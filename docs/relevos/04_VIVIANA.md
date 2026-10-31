@@ -9,9 +9,8 @@ Destino de integración: develop
 Rama de trabajo: `etapa/04-mobile-release`
 Dependencia: G3 integrada mediante PR #7 y PR #8; acta G3 aceptada por
 autorizacion explicita. La correccion PostGIS sigue en el PR #9 abierto.
-Commit de trabajo: `58f3c6c`, rama local pendiente de publicar; PR G4 hacia
-`develop` aun no creado porque los POST autenticados al API de GitHub agotaron
-timeout. No se hizo push directo a `develop`.
+Commit de trabajo: `ff6eb75`, rama publicada en `origin`; PR G4 #10 abierto hacia
+`develop`. No se hizo push directo a `develop`.
 
 Cambios actuales: cliente Expo/React Native en `apps/mobile`, cliente tipado
 contra la API G2, estados de carga/error/vacio/sin conexion, fallback de mapa y
@@ -29,8 +28,8 @@ Evidencia: `docs/evidencias/etapa-4/RESULTADOS.md`.
 
 Limitaciones: se probó emulador Android, pero no teléfono físico/LAN; geometria territorial
 sigue ausente; quedan 7 vulnerabilidades bajas transitivas de Expo CLI; no hay
-aprobacion humana de Jorge registrada; falta crear el PR G4.
+aprobacion humana de Jorge registrada; el PR #10 aún no está integrado.
 
-Siguiente paso: publicar `58f3c6c`, crear el PR G4, ejecutar CI sobre el commit
-final, probar teléfono físico/LAN, solicitar la revision autentica de Jorge y
-actualizar esta acta solo con resultados reales.
+Siguiente paso: solicitar la revision autentica de Jorge, probar teléfono
+físico/LAN y, si procede, integrar el PR #10 hacia `develop`; después actualizar
+esta acta solo con resultados reales.
