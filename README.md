@@ -4,9 +4,9 @@ Repositorio compartido de Jorge, Lluvia, Lalo y Viviana. Analítica electoral ag
 
 ## Estado actual
 
-`develop` contiene G1, G2 y G3 integradas mediante PR. G1 aporta el pipeline oficial del INE para 125 municipios de Jalisco, seis elecciones (2009-2024), el modelo retrospectivo, el contrato y sus pruebas. G2 aporta la API FastAPI, la ingesta idempotente, la persistencia local con SQLite y la migración preparada para PostgreSQL/PostGIS; este último motor todavía no se ha validado en un entorno real. G3 se integró mediante PR #7 con merge squash `fec9404`; su check `verify` pasó.
+`develop` contiene G1, G2 y G3 integradas mediante PR. G1 aporta el pipeline oficial del INE para 125 municipios de Jalisco, seis elecciones (2009-2024), el modelo retrospectivo, el contrato y sus pruebas. G2 aporta la API FastAPI, la ingesta idempotente, la persistencia local con SQLite y la migración PostgreSQL/PostGIS, validada en un contenedor local real. G3 se integró mediante PR #7 con merge squash `fec9404`; su check `verify` pasó.
 
-La revisión GitHub separada de G3 no quedó registrada porque la cuenta autenticada era la autora del PR y GitHub bloquea la auto-revisión; la autorización explícita de Viviana queda documentada en el acta. G4 móvil todavía no está implementada.
+La revisión GitHub separada de G3 no quedó registrada porque la cuenta autenticada era la autora del PR y GitHub bloquea la auto-revisión; la autorización explícita de Viviana queda documentada en el acta. G4 móvil está en desarrollo en `etapa/04-mobile-release` con PR #10 abierto; el E2E web local pasa `3/3`, el workflow integral remoto pasó sus cinco jobs y el emulador Android fue probado contra la API. Aún requiere teléfono físico/LAN y revisión de Jorge.
 
 ## Qué hace cada persona
 
@@ -41,7 +41,7 @@ No existe una carpeta kit_github que deban instalar. Los archivos ya están en s
 | `.gitignore` | Evita incorporar secretos, dependencias y archivos locales. |
 | `.env.example` | Lista de variables sin claves; copiar a `.env` local al implementar y completar solo en el equipo. |
 
-`services/api` contiene la implementación G2 y su README de arranque. `apps/web` contiene la implementación G3 integrada y su evidencia; `apps/mobile` conserva únicamente las instrucciones de G4. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen G1 y las pruebas/scripts de API.
+`services/api` contiene la implementación G2 y su README de arranque. `apps/web` contiene la implementación G3 integrada y su evidencia; `apps/mobile` contiene el cliente Expo en desarrollo y su guía de LAN. `data`, `ml`, `src/civia_data`, `tests` y `scripts` contienen G1 y las pruebas/scripts de API.
 
 ## Seguridad y alcance
 
@@ -55,11 +55,11 @@ Con Python 3.12 y `requirements.lock` instalado, la API usa SQLite local cuando 
 uvicorn app.main:app --app-dir services/api --reload
 ```
 
-Para PostgreSQL/PostGIS, ejecutar `python scripts/migrate_api.py`, después `python scripts/ingest_api.py` y arrancar Uvicorn. Ver [services/api/README.md](services/api/README.md). La geometría permanece no disponible hasta contar con correspondencia documentada.
+Para PostgreSQL/PostGIS, ejecutar `python scripts/migrate_api.py`, después `python scripts/ingest_api.py` y arrancar Uvicorn. Ver [services/api/README.md](services/api/README.md). La ruta fue validada localmente; la geometría permanece no disponible hasta contar con correspondencia documentada.
 
 ## Revisión y protección
 
-Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. Protección no configurada. `.github/workflows/g1.yml` verifica hashes, contrato y tests sobre Windows/Python 3.12; todavía no existe un workflow integral para G2, G3, G4, PostgreSQL/PostGIS o E2E. El resultado remoto debe consultarse en Actions; su existencia no significa ejecución aprobada.
+Trabajar mediante ramas y PR: rama de etapa → develop; release validada: develop → main. Sin push directo ni force push a develop o main después de la creación inicial de develop. Configurar protección de ambas ramas, aprobación humana y verificaciones cuando permisos y plan lo permitan. Protección no configurada. `.github/workflows/g1.yml` verifica hashes, contrato y tests sobre Windows/Python 3.12; `.github/workflows/integral.yml` cubre API, PostGIS, web, móvil y E2E. El resultado remoto debe consultarse en Actions; la existencia del workflow no significa ejecución aprobada.
 
 ## Flujo GitHub explicado
 
@@ -97,4 +97,4 @@ Para comprobar con descargas nuevas, ejecutar `python scripts/reproduce_check.py
 
 La tasa usa **SV/(SV+NV)**; NS se informa por separado, no como abstención. Claves son **INE**, no INEGI: Guadalajara **14041**. Solo se sirve backtest retrospectivo 2024, no pronósticos futuros. `interval=null` y no hay geometría verificada. Los resultados no prueban causalidad ni generalización a otras elecciones.
 
-Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y las actas en [docs/relevos](docs/relevos). El contrato interno 1.1.0 tiene ocho endpoints y es consumido por la API G2 y la web G3. La API se ha probado localmente con SQLite; PostgreSQL/PostGIS y la geometría verificada siguen pendientes.
+Entrega: [docs/ENTREGA_LLUVIA_G1.md](docs/ENTREGA_LLUVIA_G1.md), [metodología](docs/METODOLOGIA_G1.md), [diccionario/fuentes](data/README.md) y las actas en [docs/relevos](docs/relevos). El contrato interno 1.1.0 tiene ocho endpoints y es consumido por la API G2, la web G3 y el cliente móvil G4. La API se ha probado con SQLite y PostgreSQL/PostGIS real; el E2E web local pasa `3/3`, CI remoto pasa sus cinco jobs y el emulador Android carga datos reales, mientras geometría verificada, teléfono físico/LAN, merge del PR #10 y aceptación G4 siguen pendientes.
